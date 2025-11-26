@@ -31,3 +31,7 @@ instalar dependencias
 npm install
 
 # crear un archivo .env en la raíz con las variables de entorno del .env.example
+
+# Asegurar de cambiar el origen del cors en main.ts por la ruta donde esta corriendo el frontEnd
+ejemplo
+origin: 'http://localhost:4200',
