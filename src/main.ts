@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Habilitar CORS para permitir solicitudes desde Angular
   app.enableCors({
-    origin: 'https://client-cat-breeds.netlify.app/',
+    origin: 'https://client-cat-breeds.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
   });
